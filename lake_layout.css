@@ -17,7 +17,6 @@ body {
 	width: 100%;
 	max-width: 1020px;
 	min-width: 640px;
-	background-color:tan;
 }
 
 body > header > img {
@@ -31,14 +30,12 @@ body > section#leftcol {
 	float: left;
 	margin-left: 0%;
 	margin-right: 0%;
-	background-color:lightgoldenrodyellow;
 }
 
 body > section#rightcol {
 	width: 30%;
 	float: left;
-	margin-right: 0%;
-	background-color:lightsalmon;
+	margin-right:0%;
 }
 
 footer {
@@ -76,9 +73,7 @@ header > nav > ul > li {
 header > nav a {
 	display: block;
 	width: 100%;
-	background-color:lightsalmon;
 }
-
 
 /* Section Layout */
 

@@ -27,9 +27,50 @@ url(champagne.woff2) format('woff2');
 p{
 	font-family: DobkinPlain, serif;
 }
+body{
+   background-color:tan;
+}
 aside{
-	font-family: Champagne, serif;
+   font-family: Champagne, serif;
 }
 #rightcol{
-	font-family: Champagne,serif;
+   font-family: Champagne,serif;
+   font-size:1.3em;
+   padding-bottom:12.2em;
+   padding-left:1em;
+}
+body>section{
+   font-size:1.2em;
+}
+nav a:link, nav a:visited{
+	color:blue;
+}
+
+nav a:hover, nav a:active{
+	color:white;
+}
+header > nav a{
+   background-color:pink;
+   padding-bottom:.5em;
+}
+body > section#rightcol{
+   background-color:lightsalmon;
+}
+body > section#leftcol{
+   background-color:lightgoldenrodyellow;
+}
+footer{
+   background-color:purple;
+}
+#leftcol > aside{
+   background-color:pink;
+}
+#leftcol > aside:last-child{
+   background-color:plum;
+}
+#rightcol a:visited, #rightcol a:link{
+   color:purple;
+}
+li{
+   list-style-type:none;
 }
