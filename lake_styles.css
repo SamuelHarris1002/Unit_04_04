@@ -1,0 +1,35 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Samuel Harris
+   Date:   9/16/19
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+@font-face{
+	font-family:DobkinPlain;
+src:url(DobkinPlain.tff) Format('tff'),
+url(DobkinPlain.woff) Format('woff'),
+url(DobkinPlain.woff2) Format('woff2');
+}
+@font-face{
+	font-family:Champagne;
+src:url(Champagne.tff) format('tff'),
+url(Champagne.woff) format('woff'),
+url(champagne.woff2) format('woff2');
+}
+/* Structural Styles */
+p{
+	font-family: DobkinPlain, serif;
+}
+aside{
+	font-family: Champagne, serif;
+}
+#rightcol{
+	font-family: Champagne,serif;
+}
