@@ -36,7 +36,7 @@ aside{
 #rightcol{
    font-family: Champagne,serif;
    font-size:1.3em;
-   padding-bottom:12.2em;
+   padding-bottom:5.7em;
    padding-left:1em;
 }
 body>section{
@@ -73,4 +73,7 @@ footer{
 }
 li{
    list-style-type:none;
+}
+#rightcol blockquote{
+   font-size:1.3em;
 }
